@@ -2,6 +2,7 @@ source ~/.aliases.sh
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/linus/.oh-my-zsh"
+export PATH=/home/linus/.scripts/:$PATH
 
 # ------------------------  THEME   ------------------------------
 ZSH_THEME="af-magic"
@@ -10,7 +11,6 @@ ZSH_THEME="af-magic"
 
 # ------------------------  PLUGINS ------------------------------
 source $ZSH/oh-my-zsh.sh
-
 plugins=(git nvm debian npm node scala safe-paste cp colored-man-pages) 	
 
 # Which plugins would you like to load?

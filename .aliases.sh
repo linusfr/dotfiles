@@ -3,17 +3,27 @@
 # For a full list of active aliases, run `alias`.
 
 #backup dotfiles
-alias backupdotfiles="backupFonts && backupAliases && backupZshRc && backupDotProfile && backupGitConfig && backupI3Status && backupI3 && backupCompton && backupXRessources && backupWallpapers"
-alias backupFonts="cp -r ~/.fonts ~/Documents/dotfiles/"
-alias backupAliases="cp ~/.aliases.sh ~/Documents/dotfiles/ "
-alias backupZshRc="cp ~/.zshrc ~/Documents/dotfiles/"
-alias backupDotProfile="cp ~/.profile ~/Documents/dotfiles/"
-alias backupGitConfig="cp ~/.gitconfig ~/Documents/dotfiles/"
-alias backupI3Status="cp /etc/i3status.conf ~/Documents/dotfiles/"
-alias backupI3="cp -r ~/.i3/ ~/Documents/dotfiles/"
+alias backupdotfiles="backupAliases && backupZshRc && backupI3StatusConfig && backupI3Config && backupCompton && backupXRessources && backupWallpapers && backupScripts && cd ~/Documents/dotfiles && gitScript.py"
 alias backupCompton="cp -r ~/.config/compton.conf ~/Documents/dotfiles/compton.conf"
 alias backupXRessources="cp -r ~/.Xresources ~/Documents/dotfiles/.Xresources"
+alias backupAliases="cp ~/.aliases.sh ~/Documents/dotfiles/.aliases.sh"
 alias backupWallpapers="cp ~/.wallpaper.bmp ~/Documents/dotfiles/.wallpaper.bmp && cp ~/.wallpaper2.jpg ~/Documents/dotfiles/.wallpaper2.jpg"
+alias backupScripts="cp -r ~/.scripts ~/Documents/dotfiles/"
+alias backupZshRc="cp ~/.zshrc ~/Documents/dotfiles/.zshrc"
+alias backupI3Config="cp ~/.i3/config ~/Documents/dotfiles/.i3/config"
+alias backupI3StatusConfig="cp /etc/i3status.conf ~/Documents/dotfiles/etc/i3status.conf"
+
+# git
+alias gs="git status"
+
+# setupScreens
+alias screenSetup="xrandr --output HDMI2 --auto --above eDP1"
+
+# scripts
+alias myScripts="ls -la ~/.scripts/ | cat"
+
+# git
+alias gp="python ~/.scripts/gitScript.py"
 
 # APT
 alias aptStuff="sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean"
