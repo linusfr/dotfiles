@@ -16,6 +16,9 @@ alias backupI3StatusConfig="cp /etc/i3status.conf ~/Documents/dotfiles/etc/i3sta
 # git
 alias gs="git status"
 
+# explorer
+alias e="explorer ."
+
 # setupScreens
 alias screenSetup="xrandr --output HDMI2 --auto --above eDP1"
 
