@@ -1,13 +1,22 @@
 # must have
 
 -   macs fan control
+    -   contol the fans
     -   cpu peci
     -   35 - 70°C
 -   vanilla
+    -   hide icons in the bar
 -   iTerm
+    -   a simply better terminal
 -   Alfred
+    - better spotlight
 -   homebrew
+    - apt for macos
 -   spark
+    - mail
 -   rambox
+    - one tool for all the chat apps
 -   deezer
+    - music
 -   karabiner
+    - modify keys
