@@ -10,3 +10,4 @@
 -   spark
 -   rambox
 -   deezer
+-   karabiner
