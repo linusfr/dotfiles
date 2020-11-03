@@ -1,4 +1,5 @@
 [global_config]
+  window_state = maximise
   borderless = True
   tab_position = hidden
   hide_from_taskbar = True
@@ -9,9 +10,20 @@
   title_receive_bg_color = "#555753"
   title_inactive_fg_color = "#ffffff"
   title_inactive_bg_color = "#555753"
+  suppress_multiple_term_dialog = True
   title_use_system_font = False
   title_font = Noto Sans Mono 14
 [keybindings]
+  go_up = <Alt>j
+  go_down = <Alt>k
+  go_left = <Alt>h
+  go_right = <Alt>l
+  split_horiz = <Shift><Super>d
+  split_vert = <Super>d
+  close_term = <Super>w
+  copy = <Primary>c
+  paste = <Primary>v
+  close_window = <Super>q
 [profiles]
   [[default]]
     icon_bell = False
