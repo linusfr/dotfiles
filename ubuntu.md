@@ -16,3 +16,4 @@
 # Tiling
 
 1. https://github.com/pop-os/shell
+https://fossbytes.com/how-to-install-pop-shell-on-ubuntu-20-04-use-pop_os-auto-tiling-manager/
