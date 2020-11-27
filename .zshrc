@@ -1,13 +1,30 @@
-export ZSH="/home/linus/.oh-my-zsh"
+curl -Ls git.io/antigen > ~/.antigen.zsh 
+source ~/.antigen.zsh
 
-# ------------------------  THEME   ------------------------------
-ZSH_THEME="robbyrussell"
-# options -> refined avit robbyrussell af-magic
-
-# ------------------------  ALIASES ------------------------------
+curl -sL https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh
 source ~/.aliases.sh
 
+antigen use oh-my-zsh
+
 # ------------------------  PLUGINS ------------------------------
-source $ZSH/oh-my-zsh.sh
-plugins=(git debian npm node cp colored-man-pages) 	
-# options -> git debian npm node cp colored-man-pages kubectl zsh-syntax-highlighting zsh-autocomplete zsh-autosuggestions
+# included plugins
+antigen bundle git
+antigen bundle nvm
+antigen bundle debian
+antigen bundle npm
+antigen bundle colored-man-pages
+antigen bundle cp
+antigen bundle docker
+antigen bundle docker-compose
+antigen bundle kubectl
+
+# external plugin
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# ------------------------  THEME   ------------------------------
+antigen theme af-magic
+# refined, avit, robbyrussell, af-magic
+
+# Tell Antigen that you're done.
+antigen apply
