@@ -14,3 +14,9 @@ dconf-editor
 ```
 
 Navigate to org.gnome.desktop.wm.keybindings
+
+# ZSH-Setup
+
+```
+apt install zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc
+```
