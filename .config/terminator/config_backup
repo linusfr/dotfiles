@@ -1,7 +1,7 @@
 [global_config]
-  window_state = maximise
   borderless = True
   tab_position = hidden
+  hide_from_taskbar = True
   title_hide_sizetext = True
   title_transmit_fg_color = "#f57900"
   title_transmit_bg_color = "#555753"
@@ -13,8 +13,8 @@
   title_use_system_font = False
   title_font = Noto Sans Mono 14
 [keybindings]
-  go_up = <Alt>k
-  go_down = <Alt>j
+  go_up = <Alt>j
+  go_down = <Alt>k
   go_left = <Alt>h
   go_right = <Alt>l
   split_horiz = <Shift><Super>d
@@ -23,8 +23,6 @@
   copy = <Primary>c
   paste = <Primary>v
   close_window = <Super>q
-  toggle_zoom = <Shift><Super>m
-  layout_launcher = None
 [profiles]
   [[default]]
     icon_bell = False
