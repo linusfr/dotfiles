@@ -20,3 +20,22 @@ Navigate to org.gnome.desktop.wm.keybindings
 ```
 apt install zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc
 ```
+
+# Gnome-Tweaks   
+
+```
+sudo apt install gnome-tweak-tool gnome-tweaks   
+```     
+[Tweak Extensions](https://extensions.gnome.org/)
+
+- Alternatetab
+- Auto move windows
+- Dash to panel
+- Icon Hider
+- Remove Dropdown Arrows
+
+# Tools   
+- Terminator
+- Postman
+- Code
+- ZSH
