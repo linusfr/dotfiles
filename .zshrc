@@ -1,7 +1,4 @@
-curl -Ls git.io/antigen > ~/.antigen.zsh 
 source ~/.antigen.zsh
-
-curl -sL https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh
 source ~/.aliases.sh
 
 antigen use oh-my-zsh
