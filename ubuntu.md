@@ -18,7 +18,7 @@ Navigate to org.gnome.desktop.wm.keybindings
 # ZSH-Setup
 
 ```
-apt install zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc
+apt install zsh && curl -Ls git.io/antigen > ~/.antigen.zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc
 ```
 
 # Gnome-Tweaks   
