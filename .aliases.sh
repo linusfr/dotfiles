@@ -23,6 +23,8 @@ alias c="code ."
 # Node
 alias s="npm start"
 
+alias VBoxHelp='printf "VBoxManage list vms \nVBoxManage startvm vmName --type headless \nVBoxManage controlvm vmName poweroff\n"'
+
 # ------------------------  BACKUP  ------------------------------
 dotPath='~/private/dotfiles'
 
