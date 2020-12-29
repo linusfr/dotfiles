@@ -21,6 +21,14 @@ Navigate to org.gnome.desktop.wm.keybindings
 apt install zsh && curl -Ls git.io/antigen > ~/.antigen.zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc
 ```
 
+# Don't ask for the password   
+
+```    
+sudo visudo # edit file    
+<user> ALL=(ALL) NOPASSWD: ALL # add to the end of the file    
+sudo -k # clear password cache    
+```   
+
 # Gnome-Tweaks   
 
 ```
