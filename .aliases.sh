@@ -2,6 +2,12 @@
 
 # For a full list of active aliases, run `alias`.
 
+# private
+alias private="cd ~/private"
+
+# vi(m)
+alias vim="vi"
+
 # APT
 alias aptStuff="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y"
 
@@ -13,9 +19,6 @@ alias n="nautilus ."
 
 # public ip
 alias publicIP="curl https://ipinfo.io/ip" 
-
-# Grep
-alias -g G="| grep"
 
 # Code
 alias c="code ."
