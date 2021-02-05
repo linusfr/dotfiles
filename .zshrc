@@ -34,8 +34,5 @@ antigen theme af-magic
 # default editor
 export EDITOR=/usr/bin/vi
 
-# zsh higlighting
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-
 # Tell Antigen that you're done.
 antigen apply
