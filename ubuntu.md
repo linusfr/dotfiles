@@ -88,10 +88,21 @@ sudo apt update && \
 sudo apt install papirus-icon-theme
 ```
 
-# SSH Server
+# SSH Server    
 
 ```
-sudo apt install openssh-server && \
-sudo systemctl enable ssh && \
+sudo apt install openssh-server && \   
+sudo systemctl enable ssh && \    
 sudo systemctl start ssh
+```   
+
+Edit  `/etc/ssh/sshd_config`    
+Set the following lines:    
 ```
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+UsePAM no
+PermitRootLogin no
+```
+Reload SSH:   
+`sudo systemctl reload ssh`
