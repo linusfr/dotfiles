@@ -87,3 +87,11 @@ sudo add-apt-repository ppa:papirus/papirus && \
 sudo apt update && \
 sudo apt install papirus-icon-theme
 ```
+
+# SSH Server
+
+```
+sudo apt install openssh-server && \
+sudo systemctl enable ssh && \
+sudo systemctl start ssh
+```
