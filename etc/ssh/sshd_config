@@ -4,11 +4,3 @@ ChallengeResponseAuthentication no
 PasswordAuthentication no
 UsePAM no
 PermitRootLogin no
-
-X11Forwarding yes
-
-PrintMotd no
-
-AcceptEnv LANG LC_*
-
-Subsystem	sftp	/usr/lib/openssh/sftp-server
