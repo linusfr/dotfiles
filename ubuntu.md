@@ -105,4 +105,8 @@ UsePAM no
 PermitRootLogin no
 ```
 Reload SSH:   
-`sudo systemctl reload ssh`
+`sudo systemctl reload ssh`   
+
+# Hostname   
+
+edit `/etc/hostname`    
