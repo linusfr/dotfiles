@@ -42,7 +42,7 @@ for i in $(seq 1 9); do gsettings set org.gnome.shell.keybindings switch-to-appl
 # ZSH-Setup
 
 ```
-sudo apt install -y zsh curl && curl -Ls git.io/antigen > ~/.antigen.zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc && chsh -s $(which zsh)
+sudo apt install -y git zsh curl && curl -Ls git.io/antigen > ~/.antigen.zsh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.aliases.sh  > ~/.aliases.sh && curl -Ls https://raw.githubusercontent.com/linusfr/dotfiles/master/.zshrc > ~/.zshrc && source ~/.zshrc && chsh -s $(which zsh)
 ```
 
 # Don't ask for the password
